@@ -1,0 +1,18 @@
+quantity,value,unit
+Energy at the final shape,-13988.345117,eV
+Energy at the final shape,-514.06220140,Eh
+Zero-point energy,2.1511,eV
+Enthalpy H(298.15 K),-13985.9740,eV
+Free energy G(298.15 K),-13987.0626,eV
+Temperature,298.15,K
+Pressure,101325.0,Pa
+Symmetry number,1,
+Model,"harmonic, ideal gas, rigid rotor",
+Imaginary frequencies,0,
+Lowest real vibration,96.999,cm-1
+Translation/rotation mode 1 (should be near 0),-52.04,cm-1
+Translation/rotation mode 2 (should be near 0),-33.12,cm-1
+Translation/rotation mode 3 (should be near 0),-1.04,cm-1
+Translation/rotation mode 4 (should be near 0),0.33,cm-1
+Translation/rotation mode 5 (should be near 0),1.02,cm-1
+Translation/rotation mode 6 (should be near 0),22.52,cm-1

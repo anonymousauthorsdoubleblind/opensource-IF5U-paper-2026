@@ -1,0 +1,54 @@
+path,bytes,SHA-256,kind,description,checksum matches
+data/comparison/5fu_T1_ir_vs_argon_matrix.csv,3961,20d841eecba6f68a0778d1abc9a362cedae6b9e9b513f88fd036f2aff786c0cb,table,25 computed bands paired with the argon-matrix bands; unscaled and scaled gaps,yes
+data/ir_reference/5fu_T1_Ar_matrix_bands.csv,1982,9864d3bfb04d4ff53dd204e83523fa08c15087c910cdfb7f216514a8c430908b,table,"argon-matrix IR bands of 5-FU at 6 K transcribed from Ivanov et al. 2017 (Low Temp. Phys. 43, 400), Table 3",yes
+data/module1/run1_standard_start/run_transcript.md,33452,5045d33f7ecda30441e157cb21157717626744fd030199b6aa4a3b3b4a267dbe,log,transcript of the run's decision calls (prompts and answers),yes
+data/module1/run1_standard_start/api_usage.json,173,6851caf5b7c4d6bccaeb3c7dbfcffd868d181a96ee2a4d37d014b8dd49020f16,record,language-model token usage,yes
+data/module1/run1_standard_start/events.json,14055,2c49409ed066497103a4b4a7650d091caa75114e5da2a2a01decc18fec32376d,record,event log of the supervision loop,yes
+data/module1/run1_standard_start/final.xyz,694,fbff153f20f5b460f2981c46d74763618f1e52e3769133cbb671fddd19c7ac4d,structure,final optimized structure,yes
+data/module1/run1_standard_start/first_stored_geometry.xyz,657,51d88ceb9d39a789ce8d2a5b248682aadbcdc2cd622b80beb902c2edf64b1e56,structure,first stored geometry of the run (geometries.npy frame 0),yes
+data/module1/run1_standard_start/geometries.npy,4736,8dc633cab109500a734210456ea0b7b7e1e3446998736434075c5d3ecad96f25,trajectory,"geometry at every optimizer step (NumPy array, steps × 12 × 3, Å)",yes
+data/module1/run1_standard_start/hybrid_fmax.png,60089,cbdb51298e69901ea8eaf8695b019e1c2ab3b31b742f1a1d34bce617e5af296c,plot,diagnostic plot of the largest force,yes
+data/module1/run1_standard_start/hybrid_summary.json,4913,31c1da412119b52962bdf35a7eb0682d3603aef5e95be93f3abba15a5f6a0dc4,record,summary of the supervised run,yes
+data/module1/run1_standard_start/llm_calls.json,77325,e553c74c1f4cd32f64a0167e913d9feb8da74d2069c97c3f50313d20c398fd83,record,decision-call log with latency and parsed answer,yes
+data/module1/run1_standard_start/llm_calls_brief.json,13281,7d4db9a244c047f9cb5e95fd2b2a6472255c591b0bc9a67c8aa341ee043ec4b7,record,short version of the decision-call log,yes
+data/module1/run1_standard_start/llm_system_prompt.txt,3530,7a9a8c00ec78d83cb7f6c7587db4c77217262fc0b208201528c7efc63021c91e,log,system prompt of the decision calls,yes
+data/module1/run1_standard_start/run_meta.json,1769,b0d7be6d2d3c8cd75cd35e8ddc10eae68c8266156d8e0802da819e48535d148d,record,"run settings (basis, optimizer schedule, force-unit convention)",yes
+data/module1/run1_standard_start/steps.json,7069,c3acbc3bef6deecafae1fea39e174614f4efac5f717410a7b96a268ff4f79c24,record,energy and largest force at every optimizer step,yes
+data/module1/run1_standard_start/summary.json,4707,38ef3c5c493cdad96b149b5870fbd6b95ba72cc96ac5cca4507fb821c36a3e73,record,"run summary: convergence, gradient counts, timings, decisions",yes
+data/module1/run2_deformed_start_3.1eV/run_transcript.md,46738,b99cb5fa57927a9ce95deca9b4ce24d91ba5c45a78712629c2ecedd0584d1537,log,transcript of the run's decision calls (prompts and answers),yes
+data/module1/run2_deformed_start_3.1eV/api_usage.json,173,66773f16203d608d7cb4c081a9b92b838df93d854352704c9f9c600d03389830,record,language-model token usage,yes
+data/module1/run2_deformed_start_3.1eV/events.json,18657,30e5c8d3495487eef891831711529ed512e59b944b048244ef61c3d4ed337a70,record,event log of the supervision loop,yes
+data/module1/run2_deformed_start_3.1eV/final.xyz,694,1cd43505537d11b0d9fcf6a655071ab78f6325636992f1679b3c4ff2b2ce482e,structure,final optimized structure,yes
+data/module1/run2_deformed_start_3.1eV/first_stored_geometry.xyz,657,6bc731f680fd8183a9f6db0520b228ff2ed5b346985bc015030ca4bda39546fa,structure,first stored geometry of the run (geometries.npy frame 0),yes
+data/module1/run2_deformed_start_3.1eV/geometries.npy,16544,983c1a4cd95cdfef61e42fa5efbbd00792f3c93e7d4f7be076ca43127884ae84,trajectory,"geometry at every optimizer step (NumPy array, steps × 12 × 3, Å)",yes
+data/module1/run2_deformed_start_3.1eV/hybrid_fmax.png,64056,55d2d504d7bcbc60ecdd8d61e9862b36dbffb9c4e10a6795c76a1b8c282f3579,plot,diagnostic plot of the largest force,yes
+data/module1/run2_deformed_start_3.1eV/hybrid_summary.json,7145,e2c4406e62bbee663d2f19dc0e5a0362bf9689a858c5f4dc66f3fc8bdd3dcf73,record,summary of the supervised run,yes
+data/module1/run2_deformed_start_3.1eV/llm_calls.json,115116,87a4f3f6a8167458855dc51bf5fc6ec9d1e77a61741469b5ab8dc85f29e69418,record,decision-call log with latency and parsed answer,yes
+data/module1/run2_deformed_start_3.1eV/llm_calls_brief.json,17664,62489d298f97a82b4d535ba39fc32d23c37a26d091abc494c087984e85e84048,record,short version of the decision-call log,yes
+data/module1/run2_deformed_start_3.1eV/llm_system_prompt.txt,3530,7a9a8c00ec78d83cb7f6c7587db4c77217262fc0b208201528c7efc63021c91e,log,system prompt of the decision calls,yes
+data/module1/run2_deformed_start_3.1eV/run_meta.json,1769,d634dfda8e2543f2c731a5babc8a280df172d949ebd383c5347a240235fa073b,record,"run settings (basis, optimizer schedule, force-unit convention)",yes
+data/module1/run2_deformed_start_3.1eV/steps.json,25153,c7d2696482a47cf9e8d05d18bcf6029852746d60e033672743b17ff7f46149eb,record,energy and largest force at every optimizer step,yes
+data/module1/run2_deformed_start_3.1eV/summary.json,5433,bdfa1db86baa530f6a8aa0f65dd2406fa1a7a152e47d5235304bbfa17ee46d99,record,"run summary: convergence, gradient counts, timings, decisions",yes
+data/module1/run3_very_deformed_start_6.4eV/run_transcript.md,53165,26069a148eef9950a3d148b6dc3812472c3aa5c8af917f4f03c8486f09a71c6e,log,transcript of the run's decision calls (prompts and answers),yes
+data/module1/run3_very_deformed_start_6.4eV/api_usage.json,173,a43631421bed0b555d205938b60c07fd868d3bef6cd915866bb9659ec13d9496,record,language-model token usage,yes
+data/module1/run3_very_deformed_start_6.4eV/events.json,21656,71b60a6bbb2db23304a7ba8407a58c15b5738e1077df761dd5fcf9ec3ed5218a,record,event log of the supervision loop,yes
+data/module1/run3_very_deformed_start_6.4eV/final.xyz,694,ee7752983a1aeb427874369f83eaa1f08be572e73431b135fa5bab078469de34,structure,final optimized structure,yes
+data/module1/run3_very_deformed_start_6.4eV/first_stored_geometry.xyz,657,eb950a09d21c088484291cd4a435418a91a05e199bb8ac62dd399a6b0335bbf3,structure,first stored geometry of the run (geometries.npy frame 0),yes
+data/module1/run3_very_deformed_start_6.4eV/geometries.npy,18848,54522925b797f7f8a846f2a28d1a60776d86a142189b791f56d33ab3ffe11be2,trajectory,"geometry at every optimizer step (NumPy array, steps × 12 × 3, Å)",yes
+data/module1/run3_very_deformed_start_6.4eV/hybrid_fmax.png,63887,8ace17b207c5f0b683b3b9a90a859b3e3506cd947f22689e1a1989d56dddbc2c,plot,diagnostic plot of the largest force,yes
+data/module1/run3_very_deformed_start_6.4eV/hybrid_summary.json,7982,06663fd7192e64d6cdb0417c884b1084727399ff11bb75aa7a0b253cfbbebf08,record,summary of the supervised run,yes
+data/module1/run3_very_deformed_start_6.4eV/llm_calls.json,135573,8b7393164b1c1b1b3c90382aa51708fd4de1e892a541bbbe5058d33d9fa3eee0,record,decision-call log with latency and parsed answer,yes
+data/module1/run3_very_deformed_start_6.4eV/llm_calls_brief.json,20438,2e8efe0585fbba8981a2ae6a1ded48c62695cf4f76fc776070570faf14f0808b,record,short version of the decision-call log,yes
+data/module1/run3_very_deformed_start_6.4eV/llm_system_prompt.txt,3530,7a9a8c00ec78d83cb7f6c7587db4c77217262fc0b208201528c7efc63021c91e,log,system prompt of the decision calls,yes
+data/module1/run3_very_deformed_start_6.4eV/run_meta.json,1769,b3575572e60951faa192b45c77e87b32dc9c58c9c413e61d50c6a8b676046aa2,record,"run settings (basis, optimizer schedule, force-unit convention)",yes
+data/module1/run3_very_deformed_start_6.4eV/steps.json,28686,6979766ccbc1452e6d4d3a13b4c8cb65f1fd710d4ee3f6cdad1c3ac23a1adfae,record,energy and largest force at every optimizer step,yes
+data/module1/run3_very_deformed_start_6.4eV/summary.json,6069,7429a68cab236d5684e299a8100b55edbc8e8f3a78c9ed166774eb9303fc79e3,record,"run summary: convergence, gradient counts, timings, decisions",yes
+data/module2_T1/environment.json,505,405f5863c96e53d00e5ebb22d004eae0b1c0fe392cbf78cdd008cd7cc936a088,record,software versions and Hessian settings,yes
+data/module2_T1/freq_ir.csv,613,6718b216860a197b8ad01f94ce2a2e7b95b6f3b5cc10c1568aa135a1e086c2fa,table,30 vibrations: unscaled wavenumber (cm-1) and IR intensity (km/mol),yes
+data/module2_T1/ir_T1.png,50720,bf4d43d29f36602d614f014859b14c338ad30035d2abd8ee2f4e9ea4167c0a25,plot,raw computed IR plot,yes
+data/module2_T1/ir_curve_T1_scale1.0.csv,180110,44b6556bcc5307a2b5ed14968fb70beaac085a2bcb8f89fae4dbf1079e81fb06,table,broadened computed IR curve (unscaled),yes
+data/module2_T1/opt_final.xyz,652,da82b1b52dc5ba04761f8ebfe52acc0fb2bf14ac8782acda2f911d66533fd15e,structure,def2-TZVP optimized structure (input to the Hessian),yes
+data/module2_T1/opt_summary.json,721,a40169cacf528a1919f90acc10380d13109b00b77e8390cb9ab360c53c9642a4,record,def2-TZVP optimization record,yes
+data/module2_T1/start.xyz,655,67335e6079814d7b14578baba2a5134d697d7b909a687c7fc83c6eb19bfc0d9b,structure,Module 2 input: the Module 1 structure relaxed from the Run 2 start,yes
+data/module2_T1/thermo.json,2070,a75820f0d7321c05f131a292ec020808da471a757a0f29a78da578e9e7fa5864,record,"harmonic thermochemistry at 298.15 K, frequencies, intensities, imaginary-mode count",yes
+data/starts/T1_diketo_MMFF_start.xyz,633,a73ef0499a6c755da994643c911a330c147d524b6d4723df0ad4caa79e005d18,structure,"starting structure before any optimization (RDKit/MMFF, not optimized)",yes

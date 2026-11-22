@@ -1,0 +1,25 @@
+metric,Run 1,Run 2,Run 3,unit,source
+Starting structure,standard start,bent start,very bent start,,run folder name
+Start above final energy (from the paper),0.11,3.11,6.38,eV,paper; start files are not stored
+Converged,True,True,True,,summary.json: converged
+Final energy,-13971.351652,-13971.352164,-13971.351938,eV,summary.json: final_energy_eV
+Final energy minus Run 1,+0.00,-0.51,-0.29,meV,computed from the line above
+Final structure vs Run 1 (RMSD after alignment),0.0000,0.0072,0.0051,A,"computed from final.xyz, Kabsch alignment, 12 atoms"
+Gradient evaluations in the optimization,23,64,72,,summary.json: gradients_optimization
+Gradient evaluations for checks,4,4,4,,summary.json: gradients_evaluation
+"Gradient evaluations, total",27,68,76,,summary.json: gradients_total
+Optimizer steps,16,57,65,,summary.json: steps_total
+Passes with steps,2,1,1,,summary.json: passes_with_steps
+Gradient budget,250,250,400,,run_meta.json: gradient_budget
+Starting step cap,0.005,0.005,0.005,A,run_meta.json: schedule[0].maxstep
+Final force (Module 1 units),0.0153,0.0181,0.0173,Module 1 units,summary.json: final_fmax (about 1.89 times smaller than true eV/A)
+Force target (Module 1 units),0.02,0.02,0.02,Module 1 units,run_meta.json: endpoint_fmax
+Optimization time,4.21,12.51,14.36,min,summary.json: minutes_optimization
+"Wall time, total",7.13,16.67,18.63,min,summary.json: minutes_total_wall
+Mean time per gradient,11.06,11.54,11.75,s,summary.json: mean_seconds_per_gradient
+Bond graph intact at the end,True,True,True,,summary.json: final_structure.bond_graph_ok
+Ring out-of-plane RMS at the end,0.002,0.0073,0.0067,A,summary.json: final_structure.plane_rms_A
+Smallest curvature at the end,0.2797,0.2521,0.2477,eV/A^2,summary.json: curvature_kappa_eV_A2 (all positive)
+Any negative curvature,False,False,False,,summary.json: curvature_any_negative
+Switched to another energy valley,False,False,False,,summary.json: switched_basin
+SCF steps that did not converge,0,0,0,,summary.json: scf_not_converged_steps

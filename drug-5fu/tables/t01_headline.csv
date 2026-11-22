@@ -1,0 +1,15 @@
+quantity,value,unit,table / source
+Starting shapes tried (Module 1),"3 (0.11, 3.11 and 6.38 eV above the final energy)",,Table 2
+Run 2 final structure vs Run 1,0.0072 A and 0.51 meV,,Table 2
+Run 3 final structure vs Run 1,0.0051 A and 0.29 meV,,Table 2
+Gradient evaluations in the three runs,23 / 64 / 72,,Table 2
+Imaginary frequencies at the final shape (Module 2),0,,Table 8
+Real vibrational frequencies,30,,Table 10
+Lowest real vibration,97.0,cm-1,Table 10
+Bands compared with the argon-matrix spectrum,25,,Table 13
+Scale factor (fitted on the same bands),0.9736,,Table 14
+Typical error after scaling (mean absolute),11.0,cm-1,Table 14
+Largest error after scaling,29.2,cm-1,Table 14
+Both C=O bands after scaling,within 3.3,cm-1,Table 14
+Rank correlation of band intensities,0.86,,Table 14
+Frequencies rebuilt from the 73 saved force files,see Table 11,,Table 11

@@ -1,0 +1,5 @@
+pass,converged,steps,"largest force (eV/A, true units)"
+1,True,3,0.10805
+2,True,2,0.02908
+3,True,11,0.00988
+total,True,16,0.00988

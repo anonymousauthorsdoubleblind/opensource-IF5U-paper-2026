@@ -1,0 +1,25 @@
+kind,run or group,files,bytes
+hessian,module2_T1,73,70854
+log,run1_standard_start,2,36982
+log,run2_deformed_start_3.1eV,2,50268
+log,run3_very_deformed_start_6.4eV,2,56695
+plot,module2_T1,1,50720
+plot,run1_standard_start,1,60089
+plot,run2_deformed_start_3.1eV,1,64056
+plot,run3_very_deformed_start_6.4eV,1,63887
+record,module2_T1,3,3296
+record,run1_standard_start,8,123292
+record,run2_deformed_start_3.1eV,8,191110
+record,run3_very_deformed_start_6.4eV,8,222346
+structure,module2_T1,2,1307
+structure,run1_standard_start,2,1351
+structure,run2_deformed_start_3.1eV,2,1351
+structure,run3_very_deformed_start_6.4eV,2,1351
+structure,start,1,633
+table,comparison,1,3961
+table,module2_T1,2,180723
+table,reference,1,1982
+trajectory,run1_standard_start,1,4736
+trajectory,run2_deformed_start_3.1eV,1,16544
+trajectory,run3_very_deformed_start_6.4eV,1,18848
+all,,126,1226382

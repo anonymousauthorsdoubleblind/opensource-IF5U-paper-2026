@@ -1,0 +1,42 @@
+mode,kind,rebuilt from the force files (cm-1),published (cm-1),difference (cm-1)
+1,translation or rotation,-52.04,-52.04,0.00
+2,translation or rotation,-33.12,-33.12,0.00
+3,translation or rotation,-1.04,-1.04,0.00
+4,translation or rotation,0.33,0.33,0.00
+5,translation or rotation,1.02,1.02,0.00
+6,translation or rotation,22.52,22.52,0.00
+7,vibration,97.00,97.00,0.00
+8,vibration,149.64,149.64,0.00
+9,vibration,295.51,295.51,0.00
+10,vibration,333.09,333.09,0.00
+11,vibration,364.10,364.10,0.00
+12,vibration,390.26,390.26,0.00
+13,vibration,453.09,453.08,0.00
+14,vibration,537.12,537.12,0.00
+15,vibration,542.16,542.16,0.00
+16,vibration,626.10,626.10,0.00
+17,vibration,670.94,670.94,0.00
+18,vibration,741.92,741.92,0.00
+19,vibration,746.82,746.82,0.00
+20,vibration,764.03,764.03,0.00
+21,vibration,822.53,822.53,0.00
+22,vibration,876.91,876.91,0.00
+23,vibration,979.83,979.83,0.00
+24,vibration,1165.48,1165.48,0.00
+25,vibration,1227.73,1227.73,0.00
+26,vibration,1293.25,1293.25,0.00
+27,vibration,1370.78,1370.78,0.00
+28,vibration,1417.12,1417.12,0.00
+29,vibration,1454.79,1454.79,0.00
+30,vibration,1533.42,1533.42,0.00
+31,vibration,1740.79,1740.79,0.00
+32,vibration,1787.42,1787.43,0.00
+33,vibration,1812.30,1812.30,0.00
+34,vibration,3233.59,3233.60,-0.01
+35,vibration,3608.45,3608.45,-0.01
+36,vibration,3663.19,3663.19,-0.01
+,largest absolute difference,,,0.01
+,"Hessian asymmetry, largest |H - H^T| (eV/A^2)",,,0.062
+,"Hessian, largest entry (eV/A^2)",,,86.14
+,finite-difference step (A),,,0.01
+,largest force at the equilibrium geometry (eV/A),,,0.0095

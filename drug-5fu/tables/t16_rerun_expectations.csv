@@ -1,0 +1,8 @@
+quantity,what to expect on a rerun,why
+Final structure of each run,"same shape, within a few thousandths of an angstrom","the minimum is a property of the functional, not of the path taken"
+Final energy,same within about 1 meV,same reason; small differences from grid and convergence thresholds
+Number of gradient evaluations,may differ by several,the optimizer path need not be identical from run to run
+Frequencies and intensities,same within about 1 cm-1 and a few percent,"same structure, same Hessian recipe; GPU arithmetic is not bit-for-bit repeatable"
+Imaginary frequencies,none,a true minimum has none; a rerun that finds one has not converged
+"Scale factor, errors, rank correlation",identical for the same input table,pure arithmetic on a fixed table
+File checksums in MANIFEST.csv,identical for the released files,the released files are fixed; new runs write new files

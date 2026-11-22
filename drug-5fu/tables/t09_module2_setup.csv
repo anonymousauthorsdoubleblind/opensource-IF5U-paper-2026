@@ -1,0 +1,26 @@
+item,value
+input,"Module 1 hand-off, deformed (fu5_handoff/T1_svp_deformed_run.xyz)"
+basis,def2-tzvp
+grid level,3
+energy at the final shape (eV),-13988.345117
+energy at the final shape (Eh),-514.06220140
+force target (eV/A),0.01
+gradient evaluations,19
+minutes,11.15
+GPU,NVIDIA A100-SXM4-40GB
+Python,3.13.16
+run started,2026-11-19T08:25:14
+setting: basis,def2-tzvp
+setting: grid,3
+setting: delta,0.01
+setting: nfree,2
+setting: hess_conv_tol,1e-08
+setting: small_rho_cutoff,0.0
+package: skala,2026.9
+package: skala-cuda12x,2026.9
+package: gpu4pyscf-cuda12x,1.8.1
+package: pyscf,2.14.0
+package: torch,2.14.1+cu130
+package: cupy-cuda12x,14.2.0
+package: e3nn,0.6.0
+package: ase,3.29.0
